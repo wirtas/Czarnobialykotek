@@ -10,8 +10,10 @@ public class TicketInspector : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (!col.CompareTag("Player")) return;
+        
         PlayerColor playerColor = col.gameObject.GetComponent<PlayerColor>();
         if ((!playerColor.IsRightBlack || !isLeftWall) && (playerColor.IsRightBlack || isLeftWall)) return;
+        
         wall.gameObject.SetActive(false);
         foreach (GameObject oppositeWall in oppositeWalls)
         {
@@ -19,11 +21,8 @@ public class TicketInspector : MonoBehaviour
         }
     }
 
-    public void PlayerLeft(PlayerColor playerColor)
+    public void PlayerLeft()
     {
-        if ((!playerColor.IsRightBlack || !isLeftWall) && (playerColor.IsRightBlack || isLeftWall))
-        {
-            wall.gameObject.SetActive(true);
-        }
+        wall.gameObject.SetActive(true);
     }
 }

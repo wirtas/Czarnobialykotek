@@ -8,6 +8,6 @@ public class ExitInspector : MonoBehaviour
     private void OnTriggerExit2D(Collider2D col)
     {
         if (!col.CompareTag("Player")) return;
-        wall.PlayerLeft(col.gameObject.GetComponent<PlayerColor>());
+        wall.PlayerLeft();
     }
 }
