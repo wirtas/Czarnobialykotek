@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: platformablack
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 18bfba7627bd6864696e25196d0f602d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4342f270a83e74c4ba3e65d81e56fcb3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
