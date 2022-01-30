@@ -11,9 +11,8 @@ public class PlayerController : MonoBehaviour
 	[SerializeField] private Transform groundCheck;							
 	
 
-	private const float KGroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
-	private bool m_Grounded;            // Whether or not the player is grounded.
-	private const float KCeilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
+	private const float KGroundedRadius = .2f; 
+	private bool m_Grounded;        
 	private Rigidbody2D m_Rigidbody2D;
 	private Vector3 m_Velocity = Vector3.zero;
 
