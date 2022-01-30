@@ -8,7 +8,40 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/TestScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/LVL_01_W.unity
+    guid: 5f7b9992b135a794b81f2e9303c686a5
+  - enabled: 1
     path: Assets/Scenes/FirstLLvL.unity
     guid: 1dccb150744822e4c895231e6d900c43
+  - enabled: 1
+    path: Assets/Scenes/LVL_02_W.unity
+    guid: b9a1057747661a94fa6bfd7dadb247d9
+  - enabled: 1
+    path: Assets/Scenes/LVL_02.unity
+    guid: 8a147f4309c646740af49f07eab6a14a
+  - enabled: 1
+    path: Assets/Scenes/LVL_03_W.unity
+    guid: 04ec34ee1c446324f9b19b6a6078d09e
+  - enabled: 1
+    path: Assets/Scenes/LVL_03.unity
+    guid: 66456ce37d6af4d4a994c704ab338a38
+  - enabled: 1
+    path: Assets/Scenes/LVL_04.1_W.unity
+    guid: 07fa7ddd2ebb7894a932befcbde0dc48
+  - enabled: 0
+    path: Assets/Scenes/LVL_04.unity
+    guid: 8884ea65e1f6832419c4ad12b8f7151e
+  - enabled: 1
+    path: Assets/Scenes/LVL_05_W.unity
+    guid: ecbe86482c4dc764d8746d2f37d98e81
+  - enabled: 1
+    path: Assets/Scenes/LVL_05.unity
+    guid: 00d219559cc356445bed192f9107aa46
+  - enabled: 0
+    path: Assets/Scenes/LVL_06.unity
+    guid: 849115a20d664a743a9636d34d4c1ac8
+  - enabled: 1
+    path: Assets/Scenes/LVL_06_K.unity
+    guid: 67d8d5553be289a40beccf96b80ee522
   m_configObjects: {}
