@@ -18,6 +18,11 @@ public class PlayerMovement : MonoBehaviour {
         {
             m_Jump = true;
         }
+
+        if (Input.GetKeyDown("m"))
+        {
+            Debug.Log("mapka");
+        } ;
     }
 
     private void FixedUpdate ()
